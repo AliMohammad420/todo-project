@@ -25,25 +25,24 @@ if (age <= 0){
     alert("Invalid age")
 }
 //////phase2
-alert("answer yes & no!")
-var q1 = prompt('Do you play videogames?')
+var q1 = prompt('Do you play videogames?(yes/no)')
 if(q1 === null || q1 === '')
 {
     alert("Invalid");
 }
-var q2 = prompt("Do you study?")
+var q2 = prompt("Do you study?(yes/no)")
 if(q2 === null || q2 === '')
 {
     alert("Invalid");
 }
-var q3 = prompt("Do you drive?")
+var q3 = prompt("Do you drive?(yes/no)")
 
 if(q3 === null || q3 === '')
 {
     alert("Invalid");
 }
 var arr=[];
-for(let i = 0; i < 3 ;i++){
-  arr.push(q1, q2, q3);
+for(let i = 0; i < 8 ;i++){
+  arr.push(userConfirm, userName, gender, q1, q2, q3);
 }
 console.log(arr);
